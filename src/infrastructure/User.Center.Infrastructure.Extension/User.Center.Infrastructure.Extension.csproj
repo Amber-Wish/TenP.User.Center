@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\infrastructure\User.Center.Infrastructure.Extension\User.Center.Infrastructure.Extension.csproj" />
+    <Folder Include="Utils\" />
   </ItemGroup>
 
 </Project>
