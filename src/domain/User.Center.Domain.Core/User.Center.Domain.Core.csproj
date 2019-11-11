@@ -8,8 +8,4 @@
     <ProjectReference Include="..\..\infrastructure\User.Center.Infrastructure.Extension\User.Center.Infrastructure.Extension.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Auditing\Entities\" />
-  </ItemGroup>
-
 </Project>

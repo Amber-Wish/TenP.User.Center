@@ -10,7 +10,16 @@ namespace User.Center.Domain.Core.Models
     [Serializable]
     public abstract class AggregateRoot<TKey> : Entity<TKey>, IAggregateRoot<TKey>
     {
+        protected AggregateRoot()
+        {
 
+        }
+
+        protected AggregateRoot(TKey id)
+            : base(id)
+        {
+
+        }
     }
 
 
